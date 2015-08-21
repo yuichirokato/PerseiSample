@@ -1,0 +1,10 @@
+PODS:
+  - Persei (1.0.1)
+
+DEPENDENCIES:
+  - Persei
+
+SPEC CHECKSUMS:
+  Persei: 52d90b6f825162e81df1f0ee5559cfe5eee47475
+
+COCOAPODS: 0.37.1

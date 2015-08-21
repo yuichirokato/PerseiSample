@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89CF6AD51B8774CF009CDDD9 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CF6AD41B8774CF009CDDD9 /* ContentType.swift */; };
+		89CF6AD81B87761D009CDDD9 /* CGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CF6AD71B87761D009CDDD9 /* CGRectExtension.swift */; };
+		89CF6ADB1B8776F9009CDDD9 /* CircularRevealTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CF6ADA1B8776F9009CDDD9 /* CircularRevealTransition.swift */; };
 		89DD73621B821BB000B33E5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD73611B821BB000B33E5E /* AppDelegate.swift */; };
 		89DD73641B821BB000B33E5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD73631B821BB000B33E5E /* ViewController.swift */; };
 		89DD73671B821BB000B33E5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89DD73651B821BB000B33E5E /* Main.storyboard */; };
 		89DD73691B821BB000B33E5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89DD73681B821BB000B33E5E /* Images.xcassets */; };
 		89DD736C1B821BB000B33E5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89DD736A1B821BB000B33E5E /* LaunchScreen.xib */; };
 		89DD73781B821BB000B33E5E /* PerseiSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DD73771B821BB000B33E5E /* PerseiSampleTests.swift */; };
+		F47744D1BFB40318E362CC05 /* Pods_PerseiSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F026066CE7244E5FBC2E3867 /* Pods_PerseiSample.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01628089DA0E7CCF13D6AEE4 /* Pods-PerseiSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseiSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PerseiSample/Pods-PerseiSample.debug.xcconfig"; sourceTree = "<group>"; };
+		68E4ABEEE6D4936B39FE61F6 /* Pods-PerseiSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerseiSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-PerseiSample/Pods-PerseiSample.release.xcconfig"; sourceTree = "<group>"; };
+		89CF6AD41B8774CF009CDDD9 /* ContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
+		89CF6AD71B87761D009CDDD9 /* CGRectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGRectExtension.swift; sourceTree = "<group>"; };
+		89CF6ADA1B8776F9009CDDD9 /* CircularRevealTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularRevealTransition.swift; sourceTree = "<group>"; };
 		89DD735C1B821BB000B33E5E /* PerseiSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerseiSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DD73601B821BB000B33E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89DD73611B821BB000B33E5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +45,7 @@
 		89DD73711B821BB000B33E5E /* PerseiSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerseiSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89DD73761B821BB000B33E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89DD73771B821BB000B33E5E /* PerseiSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerseiSampleTests.swift; sourceTree = "<group>"; };
+		F026066CE7244E5FBC2E3867 /* Pods_PerseiSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerseiSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47744D1BFB40318E362CC05 /* Pods_PerseiSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +67,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37453F1BC352D7AE867F9DC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01628089DA0E7CCF13D6AEE4 /* Pods-PerseiSample.debug.xcconfig */,
+				68E4ABEEE6D4936B39FE61F6 /* Pods-PerseiSample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		89CF6AD31B877496009CDDD9 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				89CF6AD41B8774CF009CDDD9 /* ContentType.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		89CF6AD61B877602009CDDD9 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				89CF6AD71B87761D009CDDD9 /* CGRectExtension.swift */,
+			);
+			name = extensions;
+			sourceTree = "<group>";
+		};
+		89CF6AD91B8776EF009CDDD9 /* animations */ = {
+			isa = PBXGroup;
+			children = (
+				89CF6ADA1B8776F9009CDDD9 /* CircularRevealTransition.swift */,
+			);
+			name = animations;
+			sourceTree = "<group>";
+		};
 		89DD73531B821BB000B33E5E = {
 			isa = PBXGroup;
 			children = (
 				89DD735E1B821BB000B33E5E /* PerseiSample */,
 				89DD73741B821BB000B33E5E /* PerseiSampleTests */,
 				89DD735D1B821BB000B33E5E /* Products */,
+				37453F1BC352D7AE867F9DC7 /* Pods */,
+				C17FDB23D59836E151CE49B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +123,9 @@
 		89DD735E1B821BB000B33E5E /* PerseiSample */ = {
 			isa = PBXGroup;
 			children = (
+				89CF6AD91B8776EF009CDDD9 /* animations */,
+				89CF6AD61B877602009CDDD9 /* extensions */,
+				89CF6AD31B877496009CDDD9 /* model */,
 				89DD73611B821BB000B33E5E /* AppDelegate.swift */,
 				89DD73631B821BB000B33E5E /* ViewController.swift */,
 				89DD73651B821BB000B33E5E /* Main.storyboard */,
@@ -112,6 +161,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C17FDB23D59836E151CE49B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F026066CE7244E5FBC2E3867 /* Pods_PerseiSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89DD737B1B821BB000B33E5E /* Build configuration list for PBXNativeTarget "PerseiSample" */;
 			buildPhases = (
+				C2421F5B272921B0920C9C73 /* Check Pods Manifest.lock */,
 				89DD73581B821BB000B33E5E /* Sources */,
 				89DD73591B821BB000B33E5E /* Frameworks */,
 				89DD735A1B821BB000B33E5E /* Resources */,
+				2E245351D7BFCACAFBF5FE3B /* Embed Pods Frameworks */,
+				38C33E0A5968DEFCD5DA305E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,13 +267,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2E245351D7BFCACAFBF5FE3B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerseiSample/Pods-PerseiSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38C33E0A5968DEFCD5DA305E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PerseiSample/Pods-PerseiSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2421F5B272921B0920C9C73 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89DD73581B821BB000B33E5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				89DD73641B821BB000B33E5E /* ViewController.swift in Sources */,
+				89CF6AD81B87761D009CDDD9 /* CGRectExtension.swift in Sources */,
 				89DD73621B821BB000B33E5E /* AppDelegate.swift in Sources */,
+				89CF6AD51B8774CF009CDDD9 /* ContentType.swift in Sources */,
+				89CF6ADB1B8776F9009CDDD9 /* CircularRevealTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +449,7 @@
 		};
 		89DD737C1B821BB000B33E5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01628089DA0E7CCF13D6AEE4 /* Pods-PerseiSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PerseiSample/Info.plist;
@@ -348,6 +460,7 @@
 		};
 		89DD737D1B821BB000B33E5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E4ABEEE6D4936B39FE61F6 /* Pods-PerseiSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PerseiSample/Info.plist;
@@ -409,6 +522,7 @@
 				89DD737D1B821BB000B33E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		89DD737E1B821BB000B33E5E /* Build configuration list for PBXNativeTarget "PerseiSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +531,7 @@
 				89DD73801B821BB000B33E5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
