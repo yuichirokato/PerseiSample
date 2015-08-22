@@ -8,6 +8,8 @@
 
 import UIKit
 
+// Menuの中身がタップされたときにどの画像を表示するか等
+// のデータをもつモデル
 enum ContentType: String, Printable {
   case Music = "content_music.png"
   case Films = "content_films.png"
